@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:flutter/material.dart';
 
 class CriteriaPage extends StatefulWidget {
@@ -100,23 +102,4 @@ class _CriteriaPageState extends State<CriteriaPage> {
       ),
     );
   }
-}
-
-Widget getRow(List<String> text, Map<String, dynamic> varl) {
-  return Container(
-    child: Row(
-      children: [
-       if (varl.isEmpty)  Text(text[0]),
-       for(){},
-      ],
-    ),
-  );
-}
-
-class Crite {
-  final String type;
-  final String text;
-  final Map<String, dynamic> variable;
-
-  Crite({required this.text, required this.type, required this.variable});
 }
